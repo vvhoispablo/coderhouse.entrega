@@ -97,7 +97,7 @@ ul, ol {
     top: 0px;
 }
 
-/*____________________MAIN / SECTION____________________*/
+/*_____________________MAIN/SECTION_____________________*/
 
 .main-box {
     background-image: url(../assets/img/backgroundcontent.jpg);
@@ -145,7 +145,7 @@ p {
     text-align: center;
 }
 
-/*_______________________ANIMATION______________________*/
+/*______________________ANIMATIONS______________________*/
 
 .anitxt {
     position: relative;
@@ -205,7 +205,7 @@ p {
     }
     }
 
-/*_______________________________________________________*/
+/*______________________________________________________*/
 
 .anitxt1 {
     background-image: url(../assets/img/background.jpg);
@@ -257,7 +257,7 @@ p {
         }
 }
 
-/*_________________CAROUSEL - BOOTSTRAP_________________*/
+/*__________________BOOTSTRAP/CAROUSEL__________________*/
 
 .carousel-inner {
     background-image: url(../assets/img/background.jpg);
@@ -269,12 +269,11 @@ p {
     margin: 0 auto;
 }
 
-
-/*____________________WIDGET - CARD_____________________*/
-
+/*______________________WIDGET/CARD_____________________*/
 
 
-/*_______________FLEXBOX + CSS GRID AREAS_______________*/
+
+/*_____________________CCSGRIDAREAS_____________________*/
 
 .contenedor { 
     display: grid;
@@ -363,6 +362,7 @@ p {
 }
 
 /*___________________RESPONSIVE DESIGN__________________*/
+/*______________________⇩⇩⇩⇩⇩⇩⇩⇩⇩______________________*/
 /*_____________________MEDIA QUERIES____________________*/
 
 @media screen and (max-width: 768px) {
