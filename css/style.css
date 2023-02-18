@@ -371,7 +371,7 @@ p {
         grid-template-areas: 
         "header header header"
         "nav nav nav"
-        "main-content main-content content"
+        "main-content main-content main-content"
         "sidebar sidebar sidebar"
         "widget-1 widget-1 widget-1"
         "widget-2 widget-2 widget-2"
