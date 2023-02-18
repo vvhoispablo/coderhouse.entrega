@@ -273,7 +273,7 @@ p {
 
 
 
-/*_____________________CCSGRIDAREAS_____________________*/
+/*_____________________CSS.GRID.AREAS____________________*/
 
 .contenedor { 
     display: grid;
@@ -315,15 +315,13 @@ p {
 
 .contenedor .main-content {
     background-image: url(../assets/img/backgroundcontent.jpg);
-    color: black;
     grid-area: main-content;
 }
 
 .contenedor .sidebar {
     background-image: url(../assets/img/backgroundextra.jpg);
-    color: black;
     display: flex;
-    min-width: 100px;
+    min-width: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -334,9 +332,8 @@ p {
 .contenedor .widget-1, 
 .contenedor .widget-2 {
     background-image: url(../assets/img/backgroundextra.jpg);
-    color: black;
     display: flex;
-    height: 100px;
+    height: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -352,18 +349,17 @@ p {
 
 .contenedor .footer {
     background-image: url(../assets/img/backgroundextra.jpg);
-    color: white;
 
-    height: 100px;
+    height: 100%;
     align-items: center;
     justify-content: center;
     text-align: center;
     grid-area: footer;
 }
 
-/*___________________RESPONSIVE DESIGN__________________*/
-/*______________________⇩⇩⇩⇩⇩⇩⇩⇩⇩______________________*/
-/*_____________________MEDIA QUERIES____________________*/
+/*___________________RESPONSIVE.DESIGN___________________*/
+/*______________________⇩⇩⇩⇩⇩⇩⇩⇩⇩⇩⇩⇩______________________*/
+/*______________________MEDIA.QUERIES____________________*/
 
 @media screen and (max-width: 768px) {
     
@@ -379,4 +375,16 @@ p {
         
     }
     
+}
+
+@media screen and (min-width: 768px) {
+    .body { 
+        background-image: url(../assets/img/backgroundresponsive.jpg);
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .body { 
+        background-image: url(../assets/img/backgroundresponsive.jpg);
+    }
 }
