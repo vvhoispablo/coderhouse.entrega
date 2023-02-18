@@ -257,6 +257,23 @@ p {
         }
 }
 
+/*____________________FLEXBOX.GALLERY___________________*/
+
+.gallery {
+    margin-left: auto; 
+    margin-right: auto; 
+    display: grid; 
+    justify-content: center;
+}
+.gallery-item{
+    justify-content: center;
+    transition:  0.5s filter;
+    border-color: blueviolet;
+}
+.gallery-item:hover { 
+    filter: brightness(1.5);
+}
+
 /*__________________BOOTSTRAP/CAROUSEL__________________*/
 
 .carousel-inner {
@@ -357,9 +374,9 @@ p {
     grid-area: footer;
 }
 
-/*____________________RESPONSIVE.DESIGN__________________*/
-/*______________________⇩⇩⇩⇩⇩⇩⇩⇩⇩⇩⇩⇩______________________*/
-/*______________________MEDIA.QUERIES____________________*/
+/*_____________________RESPONSIVE.DESIGN_________________*/
+/*_______________________⇩⇩⇩⇩⇩⇩⇩⇩⇩⇩⇩⇩_____________________*/
+/*_______________________MEDIA.QUERIES___________________*/
 
 @media screen and (max-width: 768px) {
     
@@ -372,9 +389,6 @@ p {
         "widget-1 widget-1 widget-1"
         "widget-2 widget-2 widget-2"
         "footer footer footer";
-        
-    }
-    
 }
 
 @media screen and (min-width: 768px) {
